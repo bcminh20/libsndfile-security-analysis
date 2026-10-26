@@ -66,3 +66,17 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Bỏ qua file nhị phân và thư mục biên dịch
+*.o
+*.so
+*.a
+target/libsndfile-1.0.28/
+
+# Bỏ qua output của fuzzer (chỉ giữ lại file crash)
+afl_out/
+!afl_out/crashes/
+
+# Bỏ qua môi trường và file tạm
+.DS_Store
+*.log
