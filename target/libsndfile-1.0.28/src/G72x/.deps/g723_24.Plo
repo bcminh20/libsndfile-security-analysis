@@ -1,0 +1,5 @@
+G72x/g723_24.lo: /usr/lib/llvm-21/lib/clang/21/share/asan_ignorelist.txt \
+  G72x/g723_24.c G72x/g72x.h G72x/g72x_priv.h
+/usr/lib/llvm-21/lib/clang/21/share/asan_ignorelist.txt:
+G72x/g72x.h:
+G72x/g72x_priv.h:

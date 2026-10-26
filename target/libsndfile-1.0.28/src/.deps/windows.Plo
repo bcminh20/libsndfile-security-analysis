@@ -1,0 +1,5 @@
+windows.lo: /usr/lib/llvm-21/lib/clang/21/share/asan_ignorelist.txt \
+  windows.c sfconfig.h config.h
+/usr/lib/llvm-21/lib/clang/21/share/asan_ignorelist.txt:
+sfconfig.h:
+config.h:
